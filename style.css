@@ -105,15 +105,13 @@ body {
 }
 
 .brand-name {
-    font-family: 'Trirong', 'Noto Sans Thai', serif;
+    font-family: 'Noto Sans Thai', sans-serif;
     font-size: 1.95rem;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 1.65;
-    background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold-main) 55%, var(--gold-dark) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    line-height: 1.8;
+    color: var(--gold-light);
+    text-shadow: 0 2px 12px rgba(212, 175, 55, 0.4);
     margin-bottom: 8px;
 }
 
